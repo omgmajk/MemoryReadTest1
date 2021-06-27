@@ -4,6 +4,8 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 
+// Simple DeathCounter for Diablo 1, works with latest version found on gog.com
+
 public class MemoryRead
 {
     const int readFlag = 0x0010;                    // 0x0010 for read access
